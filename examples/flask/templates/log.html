@@ -1,0 +1,22 @@
+<html>
+
+<head>
+</head>
+
+<body>
+
+{% if error %}
+    {{error}}
+{% endif %}
+
+<form action = "/login", method = "post">
+
+Email:
+<p><input type = "text" name = "email"/></p>
+password:
+<p><input type = "password" name = "pass"/></p>
+<input type = "submit" value = "LOGIN"/></p>
+
+</form>
+</body>
+</html>
